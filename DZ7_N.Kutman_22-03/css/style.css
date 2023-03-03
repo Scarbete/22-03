@@ -1,0 +1,149 @@
+body {
+    background-image: url("../images/back.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.menu {
+    background-color: #e5e5e5;
+    height: 100px;
+}
+
+.menu_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.menu_btn {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 5px 15px;
+    background: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 180ms;
+}
+
+.menu_btn:hover {
+    background-color: #c5c5c5;
+    transition: 180ms;
+}
+
+.menu_nav ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+.menu_nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.footer {
+    height: 190px;
+    background-color: #303030;
+    padding: 45px 0 50px 0;
+    color: #fff;
+}
+
+.footer .container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.footer .subtitle {
+    font-size: 20px;
+}
+
+.footer .link {
+    display: block;
+    margin-top: 15px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.footer .call {
+    text-align: right;
+}
+
+.sidepanel {
+    position: fixed;
+    left: 60px;
+    top: 305px;
+    height: 400px;
+    width: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidepanel__text {
+    width: 120px;
+    height: 120px;
+    font-size: 14px;
+}
+
+.sidepanel__text span {
+    display: flex;
+    transform: rotate(-90deg) translateX(-50px);
+    color: #000000;
+}
+
+.sidepanel__divider {
+    width: 1px;
+    height: 170px;
+    background-color: #000000;
+}
+
+.sidepanel__icon {
+    width: 24px;
+    height: 24px;
+}
+
+.sidepanel__icon img {
+    width: 100%;
+}
+
+.cards_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.24);
+    margin: 30px 0;
+    width: 250px;
+    border: 1px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    font-size: 20px;
+    margin: 20px 10px;
+    color: white;
+}
+
+.card p {
+    font-size: 16px;
+    margin: 20px 10px;
+    color: white;
+}
